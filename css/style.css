@@ -1,1 +1,12 @@
-
+@import url("reset.css");
+@import url("variables.css");
+@import url("base.css");
+@import url("layout.css");
+@import url("components.css");
+@import url("cards.css");
+@import url("details.css");
+@import url("tables.css");
+@import url("exercises.css");
+@import url("svg.css");
+@import url("responsive.css");
+@import url("print.css");
