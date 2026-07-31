@@ -1,1 +1,81 @@
+/* ==========================================================
+   EXERCISES
+========================================================== */
 
+.exercise-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+    gap: var(--space-4);
+
+    margin-top: var(--space-5);
+
+}
+
+
+.exercise-card {
+
+    background: white;
+
+    border: var(--border);
+
+    border-radius: var(--radius-md);
+
+    padding: var(--space-5);
+
+    transition:
+        transform var(--transition-fast),
+        box-shadow var(--transition-fast);
+
+}
+
+
+.exercise-card:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: var(--shadow-md);
+
+}
+
+
+.exercise-card strong {
+
+    display: block;
+
+    color: var(--color-primary);
+
+    margin-bottom: var(--space-3);
+
+    font-size: var(--font-size-lg);
+
+}
+
+
+.exercise-card p {
+
+    margin: 0;
+
+}
+
+
+/* ==========================================================
+   ANSWERS
+========================================================== */
+
+details.answer {
+
+    margin-top: var(--space-4);
+
+}
+
+
+details.answer summary {
+
+    cursor: pointer;
+
+    font-weight: var(--font-weight-semibold);
+
+}

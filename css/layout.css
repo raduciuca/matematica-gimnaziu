@@ -1,1 +1,85 @@
+/* ==========================================================
+   LAYOUT
+========================================================== */
 
+
+/* ==========================
+   PAGE
+========================== */
+
+body {
+
+    padding: var(--space-6);
+
+}
+
+
+/* ==========================
+   MAIN CONTENT
+========================== */
+
+main {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+
+/* ==========================
+   LESSONS
+========================== */
+
+.lesson {
+
+    margin-bottom: var(--space-6);
+
+}
+
+
+/* ==========================
+   CARD
+========================== */
+
+.card {
+
+    background: var(--color-surface);
+
+    border: var(--border);
+
+    border-radius: var(--radius-lg);
+
+    padding: var(--space-6);
+
+    margin-top: var(--space-3);
+
+    box-shadow: var(--shadow-sm);
+
+}
+
+
+/* ==========================
+   SECTIONS
+========================== */
+
+.card section:not(:last-child) {
+
+    margin-bottom: var(--space-6);
+
+}
+
+
+/* ==========================
+   HORIZONTAL RULE
+========================== */
+
+hr {
+
+    border: 0;
+
+    border-top: var(--border);
+
+    margin: var(--space-5) 0;
+
+}
