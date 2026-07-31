@@ -83,3 +83,100 @@ hr {
     margin: var(--space-5) 0;
 
 }
+
+/* ==========================================================
+   APPLICATION LAYOUT
+========================================================== */
+
+.app-layout {
+
+    display: grid;
+    grid-template-columns: 300px minmax(0, 1fr);
+
+    min-height: calc(100vh - 80px);
+
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.site-header {
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+
+    padding: 1rem 2rem;
+
+    background: var(--color-surface);
+
+    border-bottom: var(--border);
+
+}
+
+.site-title h1 {
+
+    margin: 0;
+    font-size: 1.6rem;
+
+}
+
+.site-title p {
+
+    margin: .2rem 0 0;
+    color: var(--color-gray-600);
+
+}
+
+/* ==========================================================
+   SIDEBAR
+========================================================== */
+
+#sidebar {
+
+    position: sticky;
+    top: 80px;
+
+    height: calc(100vh - 80px);
+
+    overflow-y: auto;
+
+    padding: 1.5rem;
+
+    background: var(--color-gray-50);
+
+    border-right: var(--border);
+
+}
+
+/* ==========================================================
+   MAIN
+========================================================== */
+
+main {
+
+    min-width: 0;
+
+    padding: 2rem 3rem;
+
+}
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.site-footer {
+
+    padding: 2rem;
+
+    text-align: center;
+
+    border-top: var(--border);
+
+    color: var(--color-gray-600);
+
+}
