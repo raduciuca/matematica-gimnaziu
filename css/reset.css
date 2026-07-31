@@ -1,1 +1,175 @@
+/* ==========================================================
+   MATEMATICA GIMNAZIU
+   RESET CSS
+========================================================== */
 
+
+/* ==========================
+   Box Model
+========================== */
+
+*,
+*::before,
+*::after {
+
+    box-sizing: border-box;
+
+}
+
+
+/* ==========================
+   Reset margins
+========================== */
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* ==========================
+   HTML
+========================== */
+
+html {
+
+    scroll-behavior: smooth;
+
+    -webkit-text-size-adjust: 100%;
+
+}
+
+
+/* ==========================
+   Body
+========================== */
+
+body {
+
+    min-height: 100vh;
+
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+
+}
+
+
+/* ==========================
+   Images
+========================== */
+
+img,
+picture,
+svg,
+canvas {
+
+    display: block;
+
+    max-width: 100%;
+
+}
+
+
+/* ==========================
+   Form Elements
+========================== */
+
+input,
+button,
+textarea,
+select {
+
+    font: inherit;
+
+}
+
+
+/* ==========================
+   Buttons
+========================== */
+
+button {
+
+    cursor: pointer;
+
+    border: none;
+
+    background: none;
+
+}
+
+
+/* ==========================
+   Links
+========================== */
+
+a {
+
+    color: inherit;
+
+    text-decoration: none;
+
+}
+
+
+/* ==========================
+   Lists
+========================== */
+
+ul,
+ol {
+
+    list-style-position: inside;
+
+}
+
+
+/* ==========================
+   Tables
+========================== */
+
+table {
+
+    border-collapse: collapse;
+
+    border-spacing: 0;
+
+    width: 100%;
+
+}
+
+
+/* ==========================
+   Media
+========================== */
+
+iframe {
+
+    border: 0;
+
+}
+
+
+/* ==========================
+   Details
+========================== */
+
+details {
+
+    width: 100%;
+
+}
+
+
+/* ==========================
+   Hidden Attribute
+========================== */
+
+[hidden] {
+
+    display: none !important;
+
+}
